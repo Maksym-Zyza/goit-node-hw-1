@@ -1,0 +1,2 @@
+(this["webpackJsonpgoit-node-hw-1"]=this["webpackJsonpgoit-node-hw-1"]||[]).push([[0],{10:function(e,t,n){"use strict";n.r(t);var c=n(1),o=n.n(c),i=n(3),r=n.n(i),s=n(0),d=function(){return Object(s.jsx)("div",{children:Object(s.jsx)("h1",{children:"Hello Node.js!"})})};n(9);r.a.render(Object(s.jsx)(o.a.StrictMode,{children:Object(s.jsx)(d,{})}),document.getElementById("root"))}},[[10,1,2]]]);
+//# sourceMappingURL=main.40e039dd.chunk.js.map
