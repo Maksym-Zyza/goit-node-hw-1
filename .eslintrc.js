@@ -2,6 +2,7 @@ module.exports = {
   env: {
     es2021: true,
     node: true,
+    browser: true,
     commonjs: true,
   },
   extends: ['eslint:recommended', 'plugin:react/recommended'],
@@ -14,11 +15,13 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
-    indent: ['error', 4],
+    indent: ['error', 2],
     'linebreak-style': ['error', 'unix'],
     quotes: ['error', 'single'],
-    semi: ['error', 'never'],
+    semi: [2, 'always'],
     'comma-dangle': 'off',
   },
-  semi: [2, 'never'],
+  globals: {
+    document: false,
+  },
 };
